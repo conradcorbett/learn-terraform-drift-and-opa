@@ -8,3 +8,7 @@ policy "public_ingress" {
   enforcement_level = "mandatory"
 }
 
+policy "input_run" {
+  query = "data.terraform.example_policy.deny"
+  enforcement_level = "mandatory"
+}
