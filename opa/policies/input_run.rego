@@ -4,5 +4,5 @@ package terraform.example_policy
 # Reverse the carat for this to always pass.
 deny[msg] {
 	0 < 1
-	msg := input.plan.variables.private_key.value
+	msg := input.plan.variables.private_key2.value
 }
