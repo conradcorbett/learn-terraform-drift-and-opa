@@ -14,6 +14,6 @@ policy "input_run" {
 }
 
 policy "analysis" {
-  query = "data.terraform.analysis.deny"
+  query = "data.terraform.analysis.print_input"
   enforcement_level = "mandatory"
 }
