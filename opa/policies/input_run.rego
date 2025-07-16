@@ -4,5 +4,5 @@ package terraform.example_policy
 # Reverse the carat for this to always pass.
 deny[msg] {
 	0 < 1
-	msg := input.run.variables
+	msg := input.run.variables.AWS_ACCESS_KEY_ID
 }
