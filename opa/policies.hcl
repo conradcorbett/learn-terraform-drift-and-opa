@@ -13,7 +13,7 @@ policy "input_run" {
   enforcement_level = "mandatory"
 }
 
-policy "input_run" {
-  query = "data.terraform.analysisy.deny"
+policy "analysis" {
+  query = "data.terraform.analysis.deny"
   enforcement_level = "mandatory"
 }
